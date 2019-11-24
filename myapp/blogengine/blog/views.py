@@ -52,6 +52,12 @@ class TagDelete(ObjectDeleteMixin, View):
     template = 'blog/tag_delete_form.html'
     redirect_url = 'tags_list_url'
 
+
 def tags_list(request):
     tags = Tag.objects.all()
     return render(request, 'blog/tags_list.html', context={'tags': tags})
+
+
+def filter_list(request):
+    filter = Post.objects.all()
+    return render(request, 'blog/filter_list.html', context={'filter': filter})
