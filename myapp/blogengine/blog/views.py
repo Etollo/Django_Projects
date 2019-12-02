@@ -1,4 +1,5 @@
 from django.views.generic import View
+from django.shortcuts import render
 
 from .forms import TagForm, PostForm
 from .utils import *
@@ -39,12 +40,12 @@ class TagDetail(ObjectDetailMixin, View):
 class TagCreate(ObjectCreateMixin, View):
     model_form = TagForm
     template = 'blog/tag_create.html'
-    
+
 
 class TagUpdate(ObjectUpdateMixin, View):
     model = Tag
     model_form = TagForm
-    template = 'blog/tag_update_form.html' 
+    template = 'blog/tag_update_form.html'
 
 
 class TagDelete(ObjectDeleteMixin, View):

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/xml_interp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Django_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django_Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/filter_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/filter_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -64,7 +68,12 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Egor\Documents\GitHub\Django_Projects\myapp\blogengine" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,7 +87,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.xml_interp">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Django_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Egor\Documents\GitHub\Django_Projects\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xml_interp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myapp/blogengine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myapp/blogengine/xml_interp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Django" type="Python.DjangoServer" factoryName="Django server">
       <module name="Django_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +156,16 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.Django" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.xml_interp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.xml_interp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -123,6 +186,8 @@
       <workItem from="1574938732175" duration="990000" />
       <workItem from="1575206317062" duration="189000" />
       <workItem from="1575206674778" duration="223000" />
+      <workItem from="1575258743652" duration="5096000" />
+      <workItem from="1575270972816" duration="7107000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал блог по уроку Мочалова.">
       <created>1574595362401</created>
@@ -162,5 +227,9 @@
     <MESSAGE value="Доделал блог по уроку Мочалова." />
     <MESSAGE value="Начал добовление фильтра" />
     <option name="LAST_COMMIT_MESSAGE" value="Начал добовление фильтра" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Django_Projects$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1575278504558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Django_Projects$xml_interp.coverage" NAME="xml_interp Coverage Results" MODIFIED="1575281268344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/blogengine" />
   </component>
 </project>

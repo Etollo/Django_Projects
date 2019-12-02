@@ -5,21 +5,44 @@
     Search panel - {{ block.super }}
 {% endblock %}
 
-{% block  search-panel %}
+{% block  content %}
     <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-row">
+            <div class="form-group md-5">
+                <label for="formGroupExampleInput">Название проекта</label>
+                <div class="col">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Введите название">
+                    <label for="projectList">Область применения проекта</label>
+                    <select multiple class="form-control mb-3" id="projectList">
+                        <option>Компьютеры</option>
+                        <option>Авто</option>
+                        <option>Телефоны</option>
+                        <option>Электроника и Фото</option>
+                        <option>Бытовая техника</option>
+                        <option>Все для офиса</option>
+                        <option value="">Детский мир</option>
+                        <option value="">Досуг и развлечения</option>
+                    </select>
+                    <label for="productionCycle">Цикл производства</label>
+                    <select class="custom-select custom-select-lg mb-3" id="productionCycle">
+                        <option selected>Выберете цикл</option>
+                        <option value="1">Полный</option>
+                        <option value="2">Не полный</option>
+                    </select>
+                    <label for="targetAudience">Целевая аудитория</label>
+                    <select class="custom-select custom-select-lg mb-3" id="targetAudience">
+                        <option selected>Укажите возраст</option>
+                        <option value="1">от 0 до 3</option>
+                        <option value="2">от 3 до 6</option>
+                        <option value="3">от 6 до 13</option>
+                        <option value="4">от 13 до 18</option>
+                        <option value="5">от 18 до 99</option>
+                        <option value="6">от 0 до 99</option>
+                    </select>
+                    <a name="Submit" id="" class="btn btn-primary" href="#" role="button">Submit</a>
+                </div>
+            </div>
+
+        </div>
     </form>
 {% endblock  %}
