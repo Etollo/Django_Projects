@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/filter_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Django_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django_Projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/filter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/filters.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +27,9 @@
     <expand />
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Django_Projects" />
   </component>
@@ -43,6 +43,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1QjKA6CxdYvd4oLqa4eVRrTE4u1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,7 +61,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,6 +78,32 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Django_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -80,7 +116,13 @@
       <updated>1567931807472</updated>
       <workItem from="1574521793006" duration="53000" />
       <workItem from="1574521874033" duration="651000" />
-      <workItem from="1574576720353" duration="11306000" />
+      <workItem from="1574576720353" duration="11351000" />
+      <workItem from="1574761463328" duration="3729000" />
+      <workItem from="1574840016910" duration="711000" />
+      <workItem from="1574849811780" duration="427000" />
+      <workItem from="1574938732175" duration="990000" />
+      <workItem from="1575206317062" duration="189000" />
+      <workItem from="1575206674778" duration="223000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал блог по уроку Мочалова.">
       <created>1574595362401</created>
@@ -89,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574595362401</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Начал добовление фильтра">
+      <created>1574616496608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574616496608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Доделал блог по уроку Мочалова." />
-    <option name="LAST_COMMIT_MESSAGE" value="Доделал блог по уроку Мочалова." />
+    <MESSAGE value="Начал добовление фильтра" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал добовление фильтра" />
   </component>
 </project>
