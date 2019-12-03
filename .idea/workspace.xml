@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/blogengine/xml_interp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Django_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django_Projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/filter_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/filter_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +179,7 @@
       <workItem from="1575206317062" duration="189000" />
       <workItem from="1575206674778" duration="223000" />
       <workItem from="1575258743652" duration="5096000" />
-      <workItem from="1575270972816" duration="7107000" />
+      <workItem from="1575270972816" duration="7314000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал блог по уроку Мочалова.">
       <created>1574595362401</created>
@@ -203,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574616496608</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил выбор критерий обоснования прокта">
+      <created>1575281467641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575281467641</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +225,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Доделал блог по уроку Мочалова." />
     <MESSAGE value="Начал добовление фильтра" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начал добовление фильтра" />
+    <MESSAGE value="Добавил выбор критерий обоснования прокта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил выбор критерий обоснования прокта" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django_Projects$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1575278504558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
