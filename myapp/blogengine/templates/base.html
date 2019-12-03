@@ -42,6 +42,7 @@
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="{% url 'post_create_url' %}">Post</a>
                                     <a class="dropdown-item" href="{% url 'tag_create_url' %}">Tag</a>
+                                    <a class="dropdown-item" href="{% url 'project_justification_create_url' %}">Project</a>
                                 </div>
                             </div>
                             <a href="{{ admin_object.get_update_url }}" class="btn btn-light">Edit</a>
@@ -52,7 +53,7 @@
                 {% block search-panel %}
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <a class="nav-link" href="{% url 'filter_list_url' %}">Filter</a>
+                        <a class="nav-link" href="{% url 'project_justification_list_url' %}">Project justification</a>
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 {% endblock %}

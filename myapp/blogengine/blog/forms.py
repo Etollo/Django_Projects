@@ -1,5 +1,5 @@
 from django import forms
-from .models import Tag, Post
+from .models import Tag, Post, Project
 from django.core.exceptions import ValidationError
 
 
@@ -49,3 +49,16 @@ class PostForm(forms.ModelForm):
         if new_slug == 'create':
             raise ValidationError('Slug may not be "Create"')
         return new_slug
+
+
+class ProjectForm(forms.ModelForm):
+    class Meta:
+        model = Project
+        fields = ['name_project', 'application_area', 'production_cycle', 'target_audience']
+
+        widgets = {
+            'name_project': forms.TextInput(attrs={'class': 'form-control'}),
+            'application_area': forms.TextInput(attrs={'class': 'form-control'}),
+            'production_cycle': forms.TextInput(attrs={'class': 'form-control'}),
+            'target_audience': forms.TextInput(attrs={'class': 'form-control'}),
+        }

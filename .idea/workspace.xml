@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/migrations/0003_auto_20191203_1345.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/migrations/0004_auto_20191203_1402.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/includes/project_card_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_create_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blogengine/settings_local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Django_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django_Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/filter_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blogengine/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blogengine/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/filters.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,6 +69,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -66,18 +90,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Egor\Documents\GitHub\Django_Projects\myapp\blogengine" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.xml_interp">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -159,6 +171,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -180,6 +204,7 @@
       <workItem from="1575206674778" duration="223000" />
       <workItem from="1575258743652" duration="5096000" />
       <workItem from="1575270972816" duration="7314000" />
+      <workItem from="1575351531893" duration="13923000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал блог по уроку Мочалова.">
       <created>1574595362401</created>
@@ -227,6 +252,12 @@
     <MESSAGE value="Начал добовление фильтра" />
     <MESSAGE value="Добавил выбор критерий обоснования прокта" />
     <option name="LAST_COMMIT_MESSAGE" value="Добавил выбор критерий обоснования прокта" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1575370047351">
+      <screen x="-1920" y="-676" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.-676.1920.1040@-1920.-676.1920.1040" timestamp="1575370047351" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django_Projects$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1575278504558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
