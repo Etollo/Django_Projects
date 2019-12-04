@@ -7,3 +7,4 @@ option_tag = soup.new_tag('option')
 
 for i in soup.find_all('strong'):
     print(i.get_text())
+
