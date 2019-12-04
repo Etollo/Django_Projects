@@ -14,7 +14,7 @@ def gen_slug(s):
 class Post(models.Model):
     title = models.CharField(max_length=150, db_index=True)
     slug = models.SlugField(max_length=150, blank=True, unique=True)
-    body = models.TextField(blank=True, db_index=True)
+    body = models.TextField(blank=True)
     tags = models.ManyToManyField('Tag', blank=True, related_name='posts')
     datr_pub = models.DateTimeField(auto_now_add=True)
 
@@ -51,3 +51,22 @@ class Tag(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Project(models.Model):
+    name_project = models.CharField(max_length=50, unique=True)
+    application_area = models.TextField(max_length=100)
+    production_cycle = models.TextField(max_length=50)
+    target_audience = models.TextField(max_length=50)
+
+    def get_absolute_url(self):
+        return reverse('project_justification_detail_url', kwargs={'id': self.id})
+
+    def get_update_url(self):
+        return reverse('project_update_url', kwargs={'id': self.id})
+
+    def get_delete_url(self):
+        return reverse('project_delete_url', kwargs={'id': self.id})
+
+    def __str__(self):
+        return self.name_project

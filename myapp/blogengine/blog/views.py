@@ -1,7 +1,7 @@
 from django.views.generic import View
 from django.shortcuts import render
 
-from .forms import TagForm, PostForm
+from .forms import TagForm, PostForm, ProjectForm
 from .utils import *
 
 
@@ -59,6 +59,17 @@ def tags_list(request):
     return render(request, 'blog/tags_list.html', context={'tags': tags})
 
 
-def filter_list(request):
-    filter = Post.objects.all()
-    return render(request, 'blog/filter_list.html', context={'filter': filter})
+def project_justification_list(request):
+    project_justification = Project.objects.all()
+    return render(request, 'blog/project_justification_list.html',
+                  context={'project_justification': project_justification})
+
+
+class ProjectJustificationCreate(ObjectCreateMixin, View):
+    model_form = ProjectForm
+    template = 'blog/project_justification_create_form.html'
+
+
+class ProjectDetail(ObjectDetailIDMixin, View):
+    model = Project
+    template = 'blog/project_justification_detail.html'
