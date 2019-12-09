@@ -1,0 +1,16 @@
+{% extends 'blog/base_blog.html' %}
+
+{% block title %}
+    {{ news.news }} - {{ block.super}}
+{% endblock %}
+
+{% block content %}
+    <div class="card mb-4" style="width: 40rem;">
+        <h5 class="card-header">
+            {{ news.datr_pub }}
+        </h5>
+        <div class="card-body">
+            <h3 class="card-title">{{ news.news }}</h3>
+        </div>
+    </div>
+{% endblock %}

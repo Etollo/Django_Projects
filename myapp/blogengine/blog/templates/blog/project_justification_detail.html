@@ -5,5 +5,17 @@
 {% endblock %}
 
 {% block content %}
-    {% include 'blog/includes/project_card_template.html' %}
+    <div class="card mb-4">
+        <h5 class="card-header">
+            {{ project.name_project }}
+        </h5>
+        <div class="card-body">
+            <h5 class="card-title">{{ project.application_area }}</h5>
+            <p class="card-text">{{ project.production_cycle }}</p>
+            <p class="card-text">{{ project.target_audience }}</p>
+            <p id="monte_carlo" class="card-text" >Justification: 4</p>
+            <a  class="btn btn-success">Justification</a>
+        </div>
+    </div>
 {% endblock %}
+

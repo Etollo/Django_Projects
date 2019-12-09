@@ -15,5 +15,9 @@ urlpatterns = [
     path('tag/<str:slug>/delete/', TagDelete.as_view(), name='tag_delete_url'),
     path('project_justification/', project_justification_list, name='project_justification_list_url'),
     path('project_justification/create', ProjectJustificationCreate.as_view(), name='project_justification_create_url'),
-    path('project_justification/detail/<int:id>/', ProjectDetail.as_view(), name='project_justification_detail_url')
+    path('project_justification/detail/<int:id>/', ProjectJustificationDetail.as_view(), name='project_justification_detail_url'),
+
+    path('news/', news_list, name='news_list_url'),
+    path('news/detail/<int:id>/', NewsDetail.as_view(), name='news_detail_url'),
+    path('news/search/', SearchResultsView.as_view(), name='search_results_url'),
 ]

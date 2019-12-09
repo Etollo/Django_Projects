@@ -1,0 +1,25 @@
+{% extends 'blog/base_blog.html' %}
+
+{% for name in names %}
+    <p>
+        {{ name }}
+    </p>
+{% endfor %}
+
+{% block title %}
+    News
+{% endblock %}
+
+{% block content %}
+    <form action="" class="m-5">
+        <h1>News:</h1>
+        {% for news in news %}
+            <div class="card mb-4" style="width: 40rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ news.news }}</h5>
+                    <a href="{{ news.get_absolute_url }}" class="btn btn-light">Read</a>
+                </div>
+            </div>
+        {% endfor %}
+    </form>
+{% endblock %}

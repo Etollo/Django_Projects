@@ -8,6 +8,7 @@ from .models import *
 class ObjectDetailIDMixin:
     model = None
     template = None
+    res = None
 
     def get(self, request, id):
         obj = get_object_or_404(self.model, id=id)

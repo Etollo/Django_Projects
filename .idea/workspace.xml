@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/migrations/0003_auto_20191203_1345.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/migrations/0004_auto_20191203_1402.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/includes/project_card_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_create_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blogengine/settings_local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Django_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django_Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/Serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/migrations/0005_news.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/news_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/news_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/search_results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/Untitled1.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/filter_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/includes/post_card_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/includes/post_card_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blogengine/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blogengine/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blogengine/settings_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blogengine/settings_local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/submission-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/submission-2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/xml_interp.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/xml_interp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -65,6 +66,7 @@
       </set>
     </option>
   </component>
+  <component name="JupyterTrust" id="693c99ff-5c0e-43f5-ba30-a3af62aaa8aa" />
   <component name="ProjectId" id="1QjKA6CxdYvd4oLqa4eVRrTE4u1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -80,7 +82,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp/blogengine" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -90,9 +92,33 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Egor\Documents\GitHub\Django_Projects\myapp\blogengine" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myapp/blogengine" />
+    </key>
   </component>
-
-  <component name="RunManager" selected="Python.xml_interp">
+  <component name="RunManager" selected="Python.Serializer">
+    <configuration name="Serializer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myapp/blogengine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myapp/blogengine/Serializer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Django_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,13 +163,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xml_interp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django_Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myapp/blogengine" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myapp/blogengine/xml_interp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xml_interp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myapp" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -156,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Django" type="Python.DjangoServer" factoryName="Django server">
+    <configuration name="Django" type="Python.DjangoServer" factoryName="Django server" activateToolWindowBeforeRun="false">
       <module name="Django_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,11 +234,14 @@
     <list>
       <item itemvalue="Django server.Django" />
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.Unnamed (1)" />
       <item itemvalue="Python.xml_interp" />
+      <item itemvalue="Python.xml_interp (1)" />
+      <item itemvalue="Python.Serializer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Serializer" />
+        <item itemvalue="Python.xml_interp (1)" />
         <item itemvalue="Python.xml_interp" />
       </list>
     </recent_temporary>
@@ -226,6 +280,12 @@
       <workItem from="1575258743652" duration="5096000" />
       <workItem from="1575270972816" duration="7314000" />
       <workItem from="1575351531893" duration="13923000" />
+      <workItem from="1575420897740" duration="14944000" />
+      <workItem from="1575592769060" duration="29000" />
+      <workItem from="1575594446609" duration="37000" />
+      <workItem from="1575594496617" duration="10531000" />
+      <workItem from="1575813027361" duration="185000" />
+      <workItem from="1575813223411" duration="2899000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал блог по уроку Мочалова.">
       <created>1574595362401</created>
@@ -275,14 +335,53 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил выбор критерий обоснования прокта" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="264" key="#Inspections" timestamp="1575630674473">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="264" key="#Inspections/0.0.1920.1200@0.0.1920.1200" timestamp="1575630674473" />
+    <state x="560" y="264" key="#SQL_Dialects" timestamp="1575597716232">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="264" key="#SQL_Dialects/0.0.1920.1200@0.0.1920.1200" timestamp="1575597716232" />
+    <state x="424" y="261" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575870791817">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="424" y="261" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1575870791817" />
+    <state x="648" y="318" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575813204769">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="648" y="318" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1575813204769" />
+    <state x="648" y="322" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1128@0.23.1920.1128" timestamp="1575594461703" />
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom" timestamp="1575873799824">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575873799824" />
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883624" />
+    <state width="1878" height="316" key="GridCell.Tab.0.center" timestamp="1575873799823">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575873799823" />
+    <state width="1878" height="316" key="GridCell.Tab.0.center/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883623" />
+    <state width="1878" height="316" key="GridCell.Tab.0.left" timestamp="1575873799822">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575873799822" />
+    <state width="1878" height="316" key="GridCell.Tab.0.left/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883622" />
+    <state width="1878" height="316" key="GridCell.Tab.0.right" timestamp="1575873799824">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575873799824" />
+    <state width="1878" height="316" key="GridCell.Tab.0.right/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883624" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1575370047351">
       <screen x="-1920" y="-676" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.-676.1920.1040@-1920.-676.1920.1040" timestamp="1575370047351" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Django_Projects$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1575278504558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Django_Projects$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1575349440731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Django_Projects$xml_interp.coverage" NAME="xml_interp Coverage Results" MODIFIED="1575281268344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/blogengine" />
+    <SUITE FILE_PATH="coverage/Django_Projects$xml_interp__1_.coverage" NAME="xml_interp (1) Coverage Results" MODIFIED="1575870818592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/blogengine" />
+    <SUITE FILE_PATH="coverage/Django_Projects$Serializer.coverage" NAME="Serializer Coverage Results" MODIFIED="1575873767795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/blogengine" />
+    <SUITE FILE_PATH="coverage/Django_Projects$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1575278504558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

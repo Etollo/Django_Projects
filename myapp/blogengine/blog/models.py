@@ -70,3 +70,13 @@ class Project(models.Model):
 
     def __str__(self):
         return self.name_project
+
+
+class News(models.Model):
+    news = models.CharField(max_length=500)
+
+    def get_absolute_url(self):
+        return reverse('news_detail_url', kwargs={'id': self.id})
+
+    def __str__(self):
+        return self.news

@@ -1,0 +1,20 @@
+{% extends 'blog/base_blog.html' %}
+
+{% block content %}
+    <form action="{% url 'search_results_url' %}" method="get">
+        <input name="q" type="text" placeholder="Search...">
+    </form>
+
+    <div class="card mb-4" style="width: 40rem;">
+        <div class="card-body">
+            {% for news in object_list %}
+                <div class="card mb-4" style="width: 40rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ news.news }}</h5>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}
