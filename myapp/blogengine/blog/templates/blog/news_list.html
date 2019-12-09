@@ -11,6 +11,10 @@
 {% endblock %}
 
 {% block content %}
+    <form class="form-inline m-5" action="{% url 'search_results_url' %}" method="get">
+        <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
     <form action="" class="m-5">
         <h1>News:</h1>
         {% for news in news %}

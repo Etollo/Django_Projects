@@ -6,7 +6,7 @@
 
 
 {% block content %}
-    <form class="" action="{% url 'project_justification_create_url' %}" method="post">
+    <form class="mx-auto m-5" style="max-width: 35%" action="{% url 'project_justification_create_url' %}" method="post">
         {% csrf_token %}
 
         {% for field in form %}

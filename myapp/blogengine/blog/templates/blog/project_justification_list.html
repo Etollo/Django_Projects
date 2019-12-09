@@ -60,7 +60,7 @@
 {% endblock %}
 
 {% block content %}
-    <h1 class="mb-5">Projects:</h1>
+    <h1 class="mb-5 mx-auto m-5" style="max-width: 35%">Projects:</h1>
     {% for project in project_justification %}
         {% include 'blog/includes/project_card_template.html' %}
     {% endfor %}

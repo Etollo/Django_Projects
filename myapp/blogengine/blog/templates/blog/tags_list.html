@@ -5,9 +5,11 @@
 {% endblock %}
 
 {% block  content %}
-    <h1 class="mb-5">Tags:</h1>
+    <form class="mx-auto m-5" style="max-width: 35%" action="">
+        <h1 class="mb-5">Tags:</h1>
 
-    {% for tag in tags %}
-        <h3><a href="{{ tag.get_absolute_url }}">{{ tag.title }}</a> </h3>
-    {% endfor %}
+        {% for tag in tags %}
+            <h3><a href="{{ tag.get_absolute_url }}">{{ tag.title }}</a></h3>
+        {% endfor %}
+    </form>
 {% endblock  %}
