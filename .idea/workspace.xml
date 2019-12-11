@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/includes/post_card_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/includes/post_card_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/includes/project_card_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/includes/project_card_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/news_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/news_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/news_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/post_create_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/post_create_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/post_delete_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/post_delete_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/post_update_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/post_update_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_create_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_create_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/project_justification_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/search_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/search_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tag_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tag_create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tag_delete_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tag_delete_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tag_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tag_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tag_update_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tag_update_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tags_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/blog/templates/blog/tags_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +266,7 @@
       <workItem from="1575594446609" duration="37000" />
       <workItem from="1575594496617" duration="10531000" />
       <workItem from="1575813027361" duration="185000" />
-      <workItem from="1575813223411" duration="4836000" />
+      <workItem from="1575813223411" duration="6727000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал блог по уроку Мочалова.">
       <created>1574595362401</created>
@@ -350,25 +333,25 @@
     </state>
     <state x="648" y="318" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1575813204769" />
     <state x="648" y="322" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1128@0.23.1920.1128" timestamp="1575594461703" />
-    <state width="1878" height="316" key="GridCell.Tab.0.bottom" timestamp="1575873799824">
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom" timestamp="1575975154281">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575873799824" />
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575975154281" />
     <state width="1878" height="316" key="GridCell.Tab.0.bottom/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883624" />
-    <state width="1878" height="316" key="GridCell.Tab.0.center" timestamp="1575873799823">
+    <state width="1878" height="316" key="GridCell.Tab.0.center" timestamp="1575975154280">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="316" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575873799823" />
+    <state width="1878" height="316" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575975154280" />
     <state width="1878" height="316" key="GridCell.Tab.0.center/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883623" />
-    <state width="1878" height="316" key="GridCell.Tab.0.left" timestamp="1575873799822">
+    <state width="1878" height="316" key="GridCell.Tab.0.left" timestamp="1575975154279">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="316" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575873799822" />
+    <state width="1878" height="316" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575975154279" />
     <state width="1878" height="316" key="GridCell.Tab.0.left/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883622" />
-    <state width="1878" height="316" key="GridCell.Tab.0.right" timestamp="1575873799824">
+    <state width="1878" height="316" key="GridCell.Tab.0.right" timestamp="1575975154280">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="316" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575873799824" />
+    <state width="1878" height="316" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575975154280" />
     <state width="1878" height="316" key="GridCell.Tab.0.right/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883624" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1575370047351">
       <screen x="-1920" y="-676" width="1920" height="1040" />
