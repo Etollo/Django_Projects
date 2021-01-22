@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/blogengine/Serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/Serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ready/B52_Annulus_Pressure_A.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ready/B52_Annulus_Pressure_B.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ready/B52_Flow_line_Pressure.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ready/B52_Flow_line_Temperature.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ready/B52_Remote_Panel_Temperature.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ready/B52_UZV_Sensor_Close.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ready/B52_UZV_Sensor_Open.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ready/B52_Wellhead_Pressure.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ready/B52_Wellhead_Temperature.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,6 +281,7 @@
       <workItem from="1577356610411" duration="535000" />
       <workItem from="1590744055419" duration="744000" />
       <workItem from="1598541690632" duration="69000" />
+      <workItem from="1611331863921" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал блог по уроку Мочалова.">
       <created>1574595362401</created>
