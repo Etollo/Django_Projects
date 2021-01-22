@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ccdd98c9-0f16-4a5f-9ced-c250d6fec83f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/blogengine/Serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/blogengine/Serializer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp/blogengine" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -77,7 +78,7 @@
       <recent name="$PROJECT_DIR$/myapp/blogengine" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Serializer">
+  <component name="RunManager" selected="Django server.Django">
     <configuration name="Serializer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,6 +268,12 @@
       <workItem from="1575594496617" duration="10531000" />
       <workItem from="1575813027361" duration="185000" />
       <workItem from="1575813223411" duration="6727000" />
+      <workItem from="1576043034329" duration="154000" />
+      <workItem from="1576045871674" duration="3661000" />
+      <workItem from="1576762368401" duration="155000" />
+      <workItem from="1577356610411" duration="535000" />
+      <workItem from="1590744055419" duration="744000" />
+      <workItem from="1598541690632" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал блог по уроку Мочалова.">
       <created>1574595362401</created>
@@ -316,53 +323,28 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил выбор критерий обоснования прокта" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="264" key="#Inspections" timestamp="1575630674473">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1598541759058">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="560" y="264" key="#Inspections/0.0.1920.1200@0.0.1920.1200" timestamp="1575630674473" />
-    <state x="560" y="264" key="#SQL_Dialects" timestamp="1575597716232">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom/-130.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1598541759058" />
+    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1598541759058">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="560" y="264" key="#SQL_Dialects/0.0.1920.1200@0.0.1920.1200" timestamp="1575597716232" />
-    <state x="424" y="261" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575870791817">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1638" height="246" key="GridCell.Tab.0.center/-130.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1598541759058" />
+    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1598541759057">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="424" y="261" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1575870791817" />
-    <state x="648" y="318" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575813204769">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1638" height="246" key="GridCell.Tab.0.left/-130.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1598541759057" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1598541759058">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state x="648" y="318" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1575813204769" />
-    <state x="648" y="322" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1128@0.23.1920.1128" timestamp="1575594461703" />
-    <state width="1878" height="316" key="GridCell.Tab.0.bottom" timestamp="1575975154281">
-      <screen x="0" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1878" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575975154281" />
-    <state width="1878" height="316" key="GridCell.Tab.0.bottom/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883624" />
-    <state width="1878" height="316" key="GridCell.Tab.0.center" timestamp="1575975154280">
-      <screen x="0" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1878" height="316" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575975154280" />
-    <state width="1878" height="316" key="GridCell.Tab.0.center/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883623" />
-    <state width="1878" height="316" key="GridCell.Tab.0.left" timestamp="1575975154279">
-      <screen x="0" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1878" height="316" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575975154279" />
-    <state width="1878" height="316" key="GridCell.Tab.0.left/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883622" />
-    <state width="1878" height="316" key="GridCell.Tab.0.right" timestamp="1575975154280">
-      <screen x="0" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1878" height="316" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575975154280" />
-    <state width="1878" height="316" key="GridCell.Tab.0.right/0.23.1920.1128@0.23.1920.1128" timestamp="1575635883624" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1575370047351">
-      <screen x="-1920" y="-676" width="1920" height="1040" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.-676.1920.1040@-1920.-676.1920.1040" timestamp="1575370047351" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right/-130.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1598541759058" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django_Projects$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1575349440731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Django_Projects$xml_interp.coverage" NAME="xml_interp Coverage Results" MODIFIED="1575281268344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/blogengine" />
     <SUITE FILE_PATH="coverage/Django_Projects$xml_interp__1_.coverage" NAME="xml_interp (1) Coverage Results" MODIFIED="1575870818592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/blogengine" />
-    <SUITE FILE_PATH="coverage/Django_Projects$Serializer.coverage" NAME="Serializer Coverage Results" MODIFIED="1575873767795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/blogengine" />
+    <SUITE FILE_PATH="coverage/Django_Projects$Serializer.coverage" NAME="Serializer Coverage Results" MODIFIED="1576048652752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/blogengine" />
     <SUITE FILE_PATH="coverage/Django_Projects$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1575278504558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

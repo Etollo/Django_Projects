@@ -25,10 +25,11 @@ json_string_deserialize = """
     }
 }
 """
+print(type(json_string_deserialize))
 data_deserialize = json.loads(json_string_deserialize)
 print(data_deserialize)
 
-# response = requests.get('https://jsonplaceholder.typicode.com/todos/')
+response = requests.get('https://jsonplaceholder.typicode.com/todos/')
 #
 # todos = json.loads(response.text)
 # print(type(todos))
